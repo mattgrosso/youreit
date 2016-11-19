@@ -1,0 +1,104 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+button:focus {
+  outline: none; }
+
+.whoIsIt {
+  background-color: #D35934;
+  height: 200px;
+  width: 50%;
+  margin: auto;
+  margin-top: 300px; }
+  .whoIsIt h1 {
+    font-size: 5em;
+    text-align: center;
+    padding-top: 60px; }
+
+.options {
+  position: fixed;
+  bottom: -140px;
+  right: -520px;
+  transition: 0.5s ease-out;
+  transform-origin: 172px 203px; }
+  .options i {
+    font-size: 25em; }
+  .options .tag-button {
+    background-color: #8AD1FF;
+    font: inherit;
+    border: none;
+    position: relative;
+    top: -360px;
+    left: -149px;
+    border-radius: 50%;
+    padding: 22px 30px;
+    transform: rotate(100deg); }
+    .options .tag-button i {
+      font-size: 7em;
+      position: relative;
+      top: 5px;
+      left: 6px; }
+  .options .sign-in-button {
+    background-color: #8AD1FF;
+    font: inherit;
+    border: none;
+    position: relative;
+    top: -202px;
+    left: -150px;
+    border-radius: 50%;
+    padding: 22px 30px;
+    transform: rotate(100deg); }
+    .options .sign-in-button i {
+      font-size: 7em;
+      position: relative;
+      top: 5px;
+      left: 6px; }
+
+.options-open {
+  transform: rotate(-100deg); }
+
+/*# sourceMappingURL=main.css.map */
