@@ -1,0 +1,25 @@
+{
+  "name": "youreit",
+  "version": "1.0.0",
+  "description": "Simple web app for tagging someone it.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattgrosso/youreit.git"
+  },
+  "author": "Matt Grosso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattgrosso/youreit/issues"
+  },
+  "homepage": "https://github.com/mattgrosso/youreit#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
